@@ -1,0 +1,117 @@
+
+import { Game, Platform, Genre } from './types';
+
+export const MOCK_GAMES: Game[] = [
+  {
+    id: '1',
+    title: 'Elden Ring: Shadow of the Erdtree',
+    description: 'El nuevo capítulo del aclamado RPG de acción de FromSoftware.',
+    price: 34.99,
+    originalPrice: 39.99,
+    discount: 12,
+    platform: Platform.STEAM,
+    genre: Genre.RPG,
+    imageUrl: 'https://picsum.photos/seed/elden/600/400',
+    rating: 4.9,
+    releaseYear: 2024,
+    region: 'Global'
+  },
+  {
+    id: '2',
+    title: 'Cyberpunk 2077: Phantom Liberty',
+    description: 'Una expansión de suspenso y espionaje para Cyberpunk 2077.',
+    price: 25.49,
+    originalPrice: 29.99,
+    discount: 15,
+    platform: Platform.GOG,
+    genre: Genre.RPG,
+    imageUrl: 'https://picsum.photos/seed/cyber/600/400',
+    rating: 4.7,
+    releaseYear: 2023,
+    region: 'Global'
+  },
+  {
+    id: '3',
+    title: 'EA Sports FC 24',
+    description: 'La nueva era del fútbol mundial empieza aquí.',
+    price: 19.99,
+    originalPrice: 69.99,
+    discount: 71,
+    platform: Platform.XBOX,
+    genre: Genre.SPORTS,
+    imageUrl: 'https://picsum.photos/seed/fc24/600/400',
+    rating: 4.2,
+    releaseYear: 2023,
+    region: 'Global'
+  },
+  {
+    id: '4',
+    title: 'Starfield',
+    description: 'Embárcate en un viaje épico a través de las estrellas.',
+    price: 45.00,
+    originalPrice: 69.99,
+    discount: 35,
+    platform: Platform.STEAM,
+    genre: Genre.RPG,
+    imageUrl: 'https://picsum.photos/seed/starfield/600/400',
+    rating: 4.3,
+    releaseYear: 2023,
+    region: 'Global'
+  },
+  {
+    id: '5',
+    title: 'Baldur\'s Gate 3',
+    description: 'Reúne a tu grupo y regresa a los Reinos Olvidados.',
+    price: 53.99,
+    originalPrice: 59.99,
+    discount: 10,
+    platform: Platform.STEAM,
+    genre: Genre.RPG,
+    imageUrl: 'https://picsum.photos/seed/bg3/600/400',
+    rating: 5.0,
+    releaseYear: 2023,
+    region: 'Global'
+  },
+  {
+    id: '6',
+    title: 'Ghost of Tsushima Director\'s Cut',
+    description: 'En el Japón de finales del siglo XIII, el imperio mongol ha devastado naciones.',
+    price: 49.99,
+    originalPrice: 59.99,
+    discount: 16,
+    platform: Platform.PLAYSTATION,
+    genre: Genre.ACTION,
+    imageUrl: 'https://picsum.photos/seed/ghost/600/400',
+    rating: 4.8,
+    releaseYear: 2024,
+    region: 'Global'
+  },
+  {
+    id: '7',
+    title: 'Call of Duty: Modern Warfare III',
+    description: 'La secuela directa de Modern Warfare II llega con una campaña explosiva.',
+    price: 42.00,
+    originalPrice: 69.99,
+    discount: 40,
+    platform: Platform.STEAM,
+    genre: Genre.FPS,
+    imageUrl: 'https://picsum.photos/seed/cod/600/400',
+    rating: 3.9,
+    releaseYear: 2023,
+    region: 'Global'
+  },
+  {
+    id: '8',
+    title: 'Hades II',
+    description: 'Lucha más allá del Inframundo utilizando hechicería oscura.',
+    price: 28.99,
+    originalPrice: 28.99,
+    discount: 0,
+    platform: Platform.STEAM,
+    genre: Genre.ACTION,
+    imageUrl: 'https://picsum.photos/seed/hades2/600/400',
+    rating: 4.9,
+    releaseYear: 2024,
+    region: 'Global'
+  }
+];

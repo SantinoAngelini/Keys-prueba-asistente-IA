@@ -1,0 +1,7 @@
+{
+  "name": " KeyNexus - Digital Game Emporium",
+  "description": "Prueba asistente IA",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
